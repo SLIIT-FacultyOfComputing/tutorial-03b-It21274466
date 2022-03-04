@@ -32,8 +32,8 @@ int main() {
     cin >> Length of Box 2;
     
     // 5. Replace the coding below to pass the Box type structure
-    totalVolume = volume( , , )
-             + volume( , , );
+    totalVolume = volume( box1.Height, box1.Width, box1.Length )
+             + volume(box2.Height, box2.Width, box2.Length );
     
     cout << "Volume of Box is " << totalVolume << endl;
     
@@ -41,3 +41,6 @@ int main() {
 }
 
 // Implement the functions here
+{
+  return height*width*length
+}

@@ -5,8 +5,8 @@ int main() {
  char names[][20] = {"Ajith", "Wimal", "Kanthi", "Suranji", "Kushmitha"};
  cout << "No" << "Name" << "Marks" << endl;
  for (int r = 0; r < 5; r++) {
-     cout <<  r+1 
-          <<  names[r]
-          << marks[r] << endl;
+     cout << setw(5) <<  r+1 
+          << setw(15) <<  names[r]
+          << setw(10) << setiosflags(ios::fixed) << setprecision << marks[r] << endl;
  }
 }
